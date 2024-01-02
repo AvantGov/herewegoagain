@@ -1,6 +1,6 @@
 .PortfolioCard {
     height: 1200px;
-    width: 100%;
+    width: 98%;
     margin: 1% 0 2% 0;
     padding: 3% 2% 3% 0%;
     display: flex;
@@ -17,6 +17,7 @@
 .introContainer__title {
     font-size: 3rem;
     font-weight: 800;
+    margin-bottom: 2%;
 }
 
 .PC__cardContainer {

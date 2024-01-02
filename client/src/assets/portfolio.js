@@ -1,7 +1,7 @@
 export const pf = {
     Development: {
         title: "Development",
-        desc: "hello world",
+        desc: "web-based javascript projects and business application development (operational dataflows, automation, etc.)",
         list: [
             {
                 key: 'Dev001',
@@ -26,26 +26,26 @@ export const pf = {
                 URL: 'https://newclub.vercel.app/',
                 photo: "",
                 year: "2022"
+            },
+            {
+                key: 'Dev004',
+                title: 'VISA & Cardinal Commerce Reporting Dashboard',
+                desc: 'analytics dashboard for cross-team coordination.',
+                URL: 'https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard',
+                photo: "",
+                year: "2019"
             }
         ]
     },
     Design: {
         title: "Design",
-        desc: "hello world",
+        desc: "2D digital and print media including copy writing projects.",
         list: [
             {
                 key: 'Des001',
                 title: 'HarborLights Event Promo',
                 desc: 'promotional design for Tone Zone DIY space.',
                 URL: 'https://www.behance.net/gallery/76482887/DIY-Midwest-Show-Promo',
-                photo: "",
-                year: "2019"
-            },
-            {
-                key: 'Des003',
-                title: 'VISA & Cardinal Commerce Reporting Dashboard',
-                desc: 'analytics dashboard for cross-team coordination.',
-                URL: 'https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard',
                 photo: "",
                 year: "2019"
             },
@@ -69,7 +69,7 @@ export const pf = {
     },
     Sound: {
         title: "Sound",
-        desc: "hello world",
+        desc: "records of sonic efforts are kept here. bands, albums, and digital-signal-processing projects.",
         list: [
             {
                 key: 'Sou001',
@@ -99,7 +99,7 @@ export const pf = {
     },
     Photography: {
         title: "Photography",
-        desc: "hello world",
+        desc: "commercial and creative photography samples",
         list: [
             {
                 key: 'Pho001',
