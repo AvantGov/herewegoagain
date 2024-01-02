@@ -1,0 +1,22 @@
+.Heading {
+    height: 40%;
+    width: 100%;
+    margin-top: 2%;
+    padding: 2% 2% 2% 2%;
+}
+
+.Heading__title {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.Heading__subtitle {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #e16a8b;
+} 
+
+.Heading__leade {
+    line-height: 120%;
+    width: 90%;
+}

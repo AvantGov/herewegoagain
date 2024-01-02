@@ -1,0 +1,26 @@
+.Nav {
+    height: 10%;
+    width: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 2% 1% 2%;
+}
+
+
+
+.Nav__link {
+    font-weight: 800;
+    transition: .3s ease-in-out;
+    padding: .5% .5% .5% .5%;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+
+.Nav__link:hover {
+    text-decoration: none;
+    background-color: #e16a8b;
+}
