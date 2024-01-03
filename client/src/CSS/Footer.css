@@ -72,10 +72,11 @@
     justify-content: center;
     transition: .3s ease-in-out;
     border-radius: 25px;
+    border: 8px solid #f2d471;
 }
 
 .socialContainer__svgLink:hover {
-    border: 2px solid #e16a8b;
+    border: 8px solid #e16a8b;
     background-color: #ffffff;
 }
 

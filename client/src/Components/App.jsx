@@ -1,6 +1,5 @@
 // depends.
 import { useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import Hydra from 'hydra-synth';
 
 //comps
@@ -44,11 +43,10 @@ function App() {
     App.insertBefore(canvas, App.childNodes[0]);
   }, [])
 
+
   return (
     <div id='App' className='App'>
-      <Routes>
-        <Route element={<Display />} path="/display/*"/>
-      </Routes>
+      <Display />
     </div>
   )
 }

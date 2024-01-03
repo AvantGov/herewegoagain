@@ -1,14 +1,8 @@
-// * COMPS
-import Nav from "../Home/Nav";
-import Heading from "../Home/Heading";
-import PortfolioCard from "./PortfolioCard";
-import Footer from '../Footer.jsx'
-import Branding from '../Home/Branding.jsx'
-import ExperienceJump from "../Home/ExperienceJump.jsx";
+// * depends
+import { createBrowserRouter as CBR, RouterProvider as RP } from 'react-router-dom'
 
-// * data 
-import {pf} from '../../assets/portfolio.js'
-
+// * comps 
+import Home from '../_Pages/Home.jsx';
 
 // * CSS 
 import "../../CSS/Library/Display.css"
@@ -16,17 +10,16 @@ import "../../CSS/Library/Display.css"
 
 const Display = () => {
 
+    const router = CBR([
+        {
+          path: "/",
+          element: <Home />
+        }
+      ])
+
     return(
         <div className='Display'>
-            <Nav />
-            <Heading />
-            <PortfolioCard props={pf.Development} />
-            <PortfolioCard props={pf.Design} />
-            <PortfolioCard props={pf.Sound} />
-            <PortfolioCard props={pf.Photography} />
-            <ExperienceJump />
-            <Footer />
-            <Branding />
+            <RP router={router} />
         </div>
     );
 };
