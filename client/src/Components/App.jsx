@@ -1,5 +1,6 @@
 // depends.
 import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Hydra from 'hydra-synth';
 
 //comps
@@ -45,7 +46,9 @@ function App() {
 
   return (
     <div id='App' className='App'>
-      <Display />
+      <Routes>
+        <Route element={<Display />} path="/display/*"/>
+      </Routes>
     </div>
   )
 }

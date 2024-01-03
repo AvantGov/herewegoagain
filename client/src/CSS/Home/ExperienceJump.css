@@ -1,0 +1,38 @@
+.ExperienceJump {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.ExperienceJump__jumpLink {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 8% 8% 8%;
+    text-decoration: none;
+    color: #f2d471;
+    font-weight: 900;
+    transition: .4s ease-in-out;
+    font-size: 3.2rem;
+}
+
+#personal {
+    border-top: 5px dashed #f2d471;
+    border-left: 5px dashed #f2d471;
+
+}
+
+#workprofessional {
+    border-top: 5px dashed #f2d471;
+    border-right: 5px dashed #f2d471;
+}
+
+.ExperienceJump__jumpLink:hover {
+    background-color: #f2d471;
+    color: #373e45;
+}

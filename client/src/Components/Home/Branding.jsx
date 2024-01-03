@@ -1,5 +1,5 @@
 // css
-import '../CSS/Branding.css'
+import '../../CSS/Home/Branding.css'
 
 const Branding = () => {
 
