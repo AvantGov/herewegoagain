@@ -3,6 +3,7 @@ import { createBrowserRouter as CBR, RouterProvider as RP } from 'react-router-d
 
 // * comps 
 import Home from '../_Pages/Home.jsx';
+import Work from '../_Pages/Work.jsx';
 
 // * CSS 
 import "../../CSS/Library/Display.css"
@@ -14,6 +15,10 @@ const Display = () => {
         {
           path: "/",
           element: <Home />
+        },
+        {
+            path: "/work",
+            element: <Work />
         }
       ])
 
