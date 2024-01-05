@@ -37,8 +37,8 @@ export const workhistory = [
         location: "Madison, WI",
         dates: "Apr 2020 - July 2021",
         bullets: [
-            "Quality Assurance Tester for the Framework & Interoperability team @ MyChart, specailizing in multi-factor authentication, account activation, and web-service branding.",
-            "Participated in core testing for technolgies supporting COVID testing + vaccine relief projects.",    
+            "Global Product Mgmt. Intern, focusing on card-not-present transaction authentication utilizing JSON data validation and SFTP.",
+            "Created analytic dashboard for auditing and managing internal communication software used between the Global Product team and all customer-facing teams.",    
         ]
     },
 

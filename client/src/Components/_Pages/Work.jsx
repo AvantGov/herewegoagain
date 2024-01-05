@@ -10,9 +10,11 @@ const Work = () => {
         <div className="Work">
             <div className="Work__intro">
                 <h1 className="intro__title" id="title_work">Work History</h1>
-                <p className="intro_copy">hello world copy</p>
+                <p className="intro_copy">Summary information about current and previous professional positions. PDF resume can be provided upon request.</p>
             </div>
-            <WorkHistory />
+            <div className="Work__history">
+                <WorkHistory />
+            </div>
         </div>
     )
 };
