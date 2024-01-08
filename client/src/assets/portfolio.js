@@ -5,19 +5,19 @@ export const pf = {
         list: [
             {
                 key: 'Dev001',
-                title: 'Audio Contractors LLC',
-                desc: 'website overhaul with focus on improving features that drive business activity',
+                title: 'UIG Production Operations Platform Overhaul',
+                desc: 'research, design, construction, and cross-platform extension of Quickbase data platform for UIG child companies',
                 URL: 'https://www.audiocontractorsllc.com',
                 photo: "",
-                year: "2022"
+                year: "2023 - 2024"
             },
             {
                 key: 'Dev002',
-                title: 'Free From',
-                desc: 'marketing page for domestic abuse victim network',
-                URL: 'https://www.behance.net/gallery/93422201/FreeFromorg-Marketing-Page-Lambda-School-Build-Week',
-                photo: "",
-                year: "2020"
+                title: 'Audio Contractors LLC',
+                desc: 'website overhaul with focus on improving features that drive business activity',
+                URL: 'https://www.audiocontractorsllc.com',
+                photo: "/portphotos/web/AC.png",
+                year: "2022 - 2023"
             },
             {
                 key: 'Dev003',
@@ -29,6 +29,14 @@ export const pf = {
             },
             {
                 key: 'Dev004',
+                title: 'Free From',
+                desc: 'marketing page for domestic abuse victim network',
+                URL: 'https://www.behance.net/gallery/93422201/FreeFromorg-Marketing-Page-Lambda-School-Build-Week',
+                photo: "",
+                year: "2020"
+            },
+            {
+                key: 'Dev005',
                 title: 'VISA & Cardinal Commerce Reporting Dashboard',
                 desc: 'analytics dashboard for cross-team coordination.',
                 URL: 'https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard',
@@ -43,11 +51,27 @@ export const pf = {
         list: [
             {
                 key: 'Des001',
+                title: 'International Film Parody Flier Series',
+                desc: 'promotional design for Tone Zone DIY space.',
+                URL: 'https://www.behance.net/gallery/76482887/DIY-Midwest-Show-Promo',
+                photo: "",
+                year: "2019"
+            },
+            {
+                key: 'Des001',
                 title: 'HarborLights Event Promo',
                 desc: 'promotional design for Tone Zone DIY space.',
                 URL: 'https://www.behance.net/gallery/76482887/DIY-Midwest-Show-Promo',
                 photo: "",
                 year: "2019"
+            },
+            {
+                key: 'Des004',
+                title: 'Akron DIY Promo Poster',
+                desc: 'design & implementation of amazon seller platform marketing.',
+                URL: 'https://www.behance.net/gallery/74725763/Idea-Paint-Amazon-EBC-Brand-Store',
+                photo: "",
+                year: "2018"
             },
             {
                 key: 'Des005',
@@ -57,14 +81,6 @@ export const pf = {
                 photo: "",
                 year: "2018"
             },
-            {
-                key: 'Des004',
-                title: 'Akron DIY Promo Poster',
-                desc: 'design & implementation of amazon seller platform marketing.',
-                URL: 'https://www.behance.net/gallery/74725763/Idea-Paint-Amazon-EBC-Brand-Store',
-                photo: "",
-                year: "2018"
-            }
         ]
     },
     Sound: {
@@ -78,15 +94,23 @@ export const pf = {
                 URL: 'https://open.spotify.com/artist/11HMbZOFDN6Qd6pjZTtrzY?si=z0dZyhOHS8S165ka7hXsvQ',
                 photo:"",
                 year: "2022-current"
-            },   
+            },    
             {
-                key: 'Sou001',
+                key: 'Sou004',
                 title: 'malwareforfree',
                 desc: 'moniker for electronic music produced by AC.',
                 URL: 'https://open.spotify.com/artist/6cwg0A4GIQM2Sa49PzX5hp?si=wScLXfViSle_MuKCuPEzCg&nd=1',
                 photo: "",
                 year: "2020-current"
-            },        
+            },  
+            {
+                key: 'Sou003',
+                title: 'bunnies',
+                desc: 'pitch-shifted rhymic delay',
+                URL: 'https://patchstorage.com/___-bunnies-___/',
+                photo:"",
+                year: "2023"
+            },       
             {
                 key: 'Sou002',
                 title: 'Joyd Parker',

@@ -1,4 +1,4 @@
-.WorkHistory {
+.PersonalHistory {
     height: 100%;
     width: 100%;
     display: flex;
@@ -7,24 +7,25 @@
     justify-content: space-evenly;
 }
 
-.WorkHistory__posContainer {
+.PersonalHistory__histContainer {
     height: 100%;
     width: 90%;
-    padding: 2.25% 2% 1% 2%;
+    padding: 2.25% 2% 2% 2%;
     margin: 1% 0 1% 0;
     border-radius: 25px;
     transition: .3s ease-in-out;
     border: 5px solid #f2d471;
 }
 
-.posContainer__title {
+
+.histContainer__title {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 1%;
     color: #e16a8b;
 }
 
-.posContainer__company {
+.histContainer__company {
     font-style: italic;
     font-weight: 800;
     margin-bottom: .25%;
@@ -32,14 +33,14 @@
 
 }
 
-.posContainer__dates {
+.histContainer__date {
     font-style: italic;
     margin-bottom: 1.25%;
     color: #e16a8b;
 
 }
 
-.posContainer__bullet {
+.histContainer__bullet {
     margin-bottom: 2%;
     line-height: 130%;
     width: 85%;

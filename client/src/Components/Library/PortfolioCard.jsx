@@ -21,7 +21,7 @@ const PortfolioCard = (props) => {
                         count += 1
                         return(
                             <div className="PC__linkCard">
-                                <div className="linkCard__image"></div>
+                                <div className="linkCard__image"><img src={item.photo} className='linkCard__photo'/></div>
                                 <p className="linkCard__title">{item.title}</p>
                                 <p className="linkCard__year">{item.year}</p>
                             </div>
