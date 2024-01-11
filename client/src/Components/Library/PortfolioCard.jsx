@@ -20,8 +20,8 @@ const PortfolioCard = (props) => {
                     if (count < 2) {
                         count += 1
                         return(
-                            <div className="PC__linkCard">
-                                <div className="linkCard__image"><img src={item.photo} className='linkCard__photo'/></div>
+                            <div className="PC__linkCard" key={item.key}>
+                                <div className="linkCard__image"><img id={item.key} src={item.photo} className='linkCard__photo'/></div>
                                 <p className="linkCard__title">{item.title}</p>
                                 <p className="linkCard__year">{item.year}</p>
                             </div>

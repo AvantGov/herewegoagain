@@ -1,3 +1,6 @@
+// depends
+import { Link } from 'react-router-dom';
+
 // css 
 import '../../CSS/Home/Nav.css';
 
@@ -5,11 +8,11 @@ const Nav = () => {
 
     return(
         <div id='Nav' className='Nav'>
-            <a className='Nav__link' id='navlink_1' href='/' target="_blank">Home</a>
-            <a className='Nav__link' id='navlink_1' href='/' target="_blank">Development</a>
-            <a className='Nav__link' id='navlink_2' href='/' target="_blank">Design</a>
-            <a className='Nav__link' id='navlink_3' href='/' target="_blank">Sound</a>
-            <a className='Nav__link' id='navlink_4' href='/' target="_blank">Photography</a>
+            <Link className='Nav__link' id='navlink_1' to='/'>Home</Link>
+            <Link className='Nav__link' id='navlink_1' to='/Development'>Development</Link>
+            <Link className='Nav__link' id='navlink_2' to='/Design'>Design</Link>
+            <Link className='Nav__link' id='navlink_3' to='/Sound'>Sound</Link>
+            <Link className='Nav__link' id='navlink_4' to='/Photography'>Photography</Link>
         </div>
     )
 }
