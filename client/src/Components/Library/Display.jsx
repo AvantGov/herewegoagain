@@ -7,19 +7,14 @@ import Work from '../_Pages/Work.jsx';
 import Personal from '../_Pages/Personal.jsx';
 import Showcase from '../Showcase/Showcase.jsx';
 
+// * data 
+import { pf } from '../../assets/portfolio.js';
+
 // * CSS 
 import "../../CSS/Library/Display.css"
 
 
 const Display = () => {
-
-    const obj = {
-        development: "development",
-        design: "design",
-        sound: "sound",
-        photo: "photography"
-
-    }
 
     const router = CBR([
         {
@@ -36,19 +31,19 @@ const Display = () => {
         },
         {
             path: "/Development",
-            element: <Showcase props={obj.development} />
+            element: <Showcase props={pf.Development} />
         },
         {
             path: "/Design",
-            element: <Showcase props={obj.design} />
+            element: <Showcase props={pf.Design} />
         },        
         {
             path: "/Sound",
-            element: <Showcase props={obj.sound} />
+            element: <Showcase props={pf.Sound} />
         },
         {
             path: "/Photography",
-            element: <Showcase props={obj.photo} />
+            element: <Showcase props={pf.Photography} />
         }
 
 
