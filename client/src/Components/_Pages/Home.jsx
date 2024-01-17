@@ -17,7 +17,7 @@ const Home = () => {
     
     return(
         <div className="Home">
-            <Nav />
+            <Nav props={{color: "#e16a8b"}}/>
             <Heading />
             <PortfolioCard props={pf.Development} />
             <PortfolioCard props={pf.Design} />

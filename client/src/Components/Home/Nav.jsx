@@ -4,10 +4,16 @@ import { Link } from 'react-router-dom';
 // css 
 import '../../CSS/Home/Nav.css';
 
-const Nav = () => {
+const Nav = (props) => {
+    const pr = props.props
 
     return(
-        <div id='Nav' className='Nav'>
+        <div id='Nav' className='Nav' style={{
+                backgroundColor: pr.color, 
+                marginTop: pr.marginTop, 
+                marginBottom: pr.marginBottom,
+                marginLeft: pr.marginLeft
+            }}>
             <Link className='Nav__link' id='navlink_1' to='/'>Home</Link>
             <Link className='Nav__link' id='navlink_1' to='/Development'>Development</Link>
             <Link className='Nav__link' id='navlink_2' to='/Design'>Design</Link>
