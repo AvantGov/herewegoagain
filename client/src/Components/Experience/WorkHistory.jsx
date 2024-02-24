@@ -1,3 +1,6 @@
+// comps 
+import FooterNav from "../Library/FooterNav.jsx";
+
 // css 
 import "../../CSS/Experience/WorkHistory.css";
 
@@ -22,6 +25,7 @@ const WorkHistory = () => {
                     </div>
                 )
             })}
+            <FooterNav props={{color: "#f2d471"}} />
         </div>
     )
 }

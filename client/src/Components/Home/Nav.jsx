@@ -9,10 +9,7 @@ const Nav = (props) => {
 
     return(
         <div id='Nav' className='Nav' style={{
-                backgroundColor: pr.color, 
-                marginTop: pr.marginTop, 
-                marginBottom: pr.marginBottom,
-                marginLeft: pr.marginLeft
+                backgroundColor: pr.color
             }}>
             <Link className='Nav__link' id='navlink_1' to='/'>Home</Link>
             <Link className='Nav__link' id='navlink_1' to='/Development'>Development</Link>

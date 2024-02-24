@@ -44,10 +44,7 @@ const Display = () => {
         {
             path: "/Photography",
             element: <Showcase props={pf.Photography} />
-        }
-
-
-        
+        }   
       ])
 
     return(

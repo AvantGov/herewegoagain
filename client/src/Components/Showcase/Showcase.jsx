@@ -1,5 +1,5 @@
 // comps 
-import Nav from '../Home/Nav';
+import FooterNav from '../Library/FooterNav';
 
 // css 
 import '../../CSS/Showcase/Showcase.css';
@@ -19,7 +19,7 @@ const Showcase = (props) => {
                     <Case props={item} key={`showcase_${item.key}`}/>
                 )
             })}
-            <Nav props={{width: "100%", marginTop: "2%", marginBottom: "2%", color: "#05C3DD", marginLeft: "2%"}}/>
+            <FooterNav props={{color: "#05C3DD" }}/>
         </div>
     )
 };

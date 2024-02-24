@@ -1,0 +1,27 @@
+.FooterNav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 4% 2% 2% 2%;
+    background-image: url("../../assets/textures/worms.svg");
+    border-top: 3px solid #ffffff;
+}
+
+
+
+.FooterNav__link {
+    font-weight: 800;
+    transition: .3s ease-in-out;
+    padding: .5% 1% .5% 1%;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.FooterNav__link:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #e16a8b;
+}

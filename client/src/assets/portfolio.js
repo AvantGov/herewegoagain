@@ -210,22 +210,6 @@ export const pf = {
                 year: "2018-2021"
             },
             {
-                key: 'Pho002',
-                title: 'Wedding Series: Allison & Christine',
-                desc: 'summer wedding captured while working for David Harris Photography.',
-                bullets: [],
-                samples: [
-                    "/portphotos/photo/ACwedding/AC_WED.jpg",
-                    "/portphotos/photo/ACwedding/AC1.jpg",
-                    "/portphotos/photo/ACwedding/AC2.jpg",
-                    "/portphotos/photo/ACwedding/AC3.jpg",
-                    "/portphotos/photo/ACwedding/AC4.jpg",
-                ],
-                URL: '',
-                cover: "/portphotos/photo/ACwedding/AC1.jpg",
-                year: "2019"
-            },
-            {
                 key: 'Pho003',
                 title: 'Adam & Violetta Wedding',
                 desc: 'Eastern Orthodox summer wedding.',
@@ -239,6 +223,22 @@ export const pf = {
                 ],
                 URL: '',
                 cover: "/portphotos/photo/AVwedding/AV5.jpg",
+                year: "2019"
+            },
+            {
+                key: 'Pho002',
+                title: 'Wedding Series: Allison & Christine',
+                desc: 'summer wedding captured while working for David Harris Photography.',
+                bullets: [],
+                samples: [
+                    "/portphotos/photo/ACwedding/AC_WED.jpg",
+                    "/portphotos/photo/ACwedding/AC1.jpg",
+                    "/portphotos/photo/ACwedding/AC2.jpg",
+                    "/portphotos/photo/ACwedding/AC3.jpg",
+                    "/portphotos/photo/ACwedding/AC4.jpg",
+                ],
+                URL: '',
+                cover: "/portphotos/photo/ACwedding/AC2.jpg",
                 year: "2019"
             },
         ]

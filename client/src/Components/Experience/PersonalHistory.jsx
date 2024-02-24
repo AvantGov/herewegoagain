@@ -1,3 +1,6 @@
+// comps
+import FooterNav from "../Library/FooterNav";
+
 // * CSS 
 import "../../CSS/Experience/PersonalHistory.css";
 
@@ -18,6 +21,7 @@ const PersonalHistory = () => {
                     </div>
                 )
             })}
+            <FooterNav props={{color: "#f2d471"}} />
         </div>
     )
 };

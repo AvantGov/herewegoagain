@@ -13,9 +13,17 @@ const Case = (props) => {
     })
 
     const changeView = () => {
-        setController({view: true})
-        console.log("update:", controller)
+        var btn = window.document.getElementById(`viewctrl_${item.key}`)
+        if (controller.view === false) {
+            setController({view: true})
+            btn.innerHTML = "Show Less"
+        } else if (controller.view === true) {
+            setController({view: false})
+            btn.innerHTML = "Show More"
+        }
+        // console.log("update:", controller)
     }
+
 
     return (
         <div className='Showcase__case' key={`case_${item.key}`} id={`case_${item.key}`}>
@@ -37,7 +45,7 @@ const Case = (props) => {
             </div>
             {
                 item.samples.length > 0 ? 
-                    <div className='Showcase__viewCtrl' onClick={() => {changeView()}}>
+                    <div className='Showcase__viewCtrl' id={`viewctrl_${item.key}`} onClick={() => {changeView()}}>
                         <p className='viewCtrl__copy'>Show More</p>
                     </div> : null
             }

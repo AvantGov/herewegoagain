@@ -19,7 +19,7 @@ function App() {
       makeGlobal: false
     }).synth
     hydra.setResolution(1920,1080)
-    // hydra.gradient(1).out()
+    hydra.gradient(1).out()
     // hydra.osc(3, 0.1, 100)
     //   .color(0.9, 0.7, 0.8)
     //   .diff(hydra.osc(.45, 0.3, 100)
