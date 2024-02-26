@@ -79,6 +79,19 @@
     margin-top: .25%;
 }
 
+.bulletContainer__link {
+    text-decoration: underline;
+    color: #ffffff;
+    margin-top: 5%;
+    font-size: 2rem;
+    font-weight: 900;
+    transition: .2s ease-in-out;
+}
+
+.bulletContainer__link:hover {
+    color: #e16a8b;
+}
+
 .Showcase__viewCtrl {
     height: 100%;
     width: 5%;
@@ -121,7 +134,7 @@
 }
 
 .imgCont__img {
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
     width: 100%;
     box-shadow: inset 0px 0px 10px 10px #ffffff

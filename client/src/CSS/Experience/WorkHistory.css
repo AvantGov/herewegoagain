@@ -11,10 +11,11 @@
     height: 100%;
     width: 90%;
     padding: 2.25% 2% 1% 2%;
-    margin: 1% 0 1% 0;
+    margin: 1% 0 1.5% 2%;
     border-radius: 25px;
     transition: .3s ease-in-out;
     border: 5px solid #f2d471;
+    margin-bottom: 3%;
 }
 
 .posContainer__title {

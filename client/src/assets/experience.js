@@ -6,9 +6,9 @@ export const workhistory = [
         location: "Madison, WI",
         dates: "July 2023 - Current",
         bullets: [
-            "hello world text",
-            "hello world text",
-            "hello world text",
+            "Guided collaboration between team members and management to plan effective software designs by translating complex business needs into intuitive applications and workflows.",
+            "Mitigated issues in existing applications while building new and revised applications, reports, automations, and dashboards for multiple departments.",
+            "Automated cross-department workflows between Quickbase and external software platforms to increase team performance while balancing database efficiency.",
         ]
     },
     {

@@ -40,7 +40,8 @@ const Case = (props) => {
                         return(
                             <p className='bulletContainer__bullet' key={`bc_${bulletcounter}`}><span>&#8277;</span>{item}</p>
                         )
-                    })}    
+                    })}  
+                    {item.URL.location === "" ? null : <a className='bulletContainer__link' id={`bclink_${item.key}`} href={item.URL.location} target='_blank' rel='noopener noreferrer'>{item.URL.prompt}&#10548;</a>}  
                 </div> 
             </div>
             {
