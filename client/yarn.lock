@@ -1683,7 +1683,7 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-meyda@^5.5.1:
+meyda@^5.5.1, meyda@^5.6.2:
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/meyda/-/meyda-5.6.2.tgz#bdd7fb7030071b7be73372b159a3d04c400ad629"
   integrity sha512-FSHo8XDdmhIDeBJ2nht9WYRj0VIQ8wbzcfken0YIHUuuxVMnpDcvzVfXyY2m6YkA7q6ypzKROUNV4yoXG0uogQ==
