@@ -13,13 +13,13 @@ const WorkHistory = () => {
         <div className="WorkHistory">
             {workhistory.map((item) => {
                 return (
-                    <div className="WorkHistory__posContainer">
+                    <div key={item.id} className="WorkHistory__posContainer">
                         <h2 className="posContainer__title">{item.title}</h2>
                         <p className="posContainer__company">{item.company}</p>
                         <p className="posContainer__dates">{item.dates} | {item.location}</p>
                         {item.bullets.map((item) => {
                             return(
-                                <p className="posContainer__bullet">{item}</p>
+                                <p className="posContainer__bullet" key={Math.random()}>{item}</p>
                             )
                         })}
                     </div>

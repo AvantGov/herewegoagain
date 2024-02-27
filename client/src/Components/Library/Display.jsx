@@ -48,7 +48,7 @@ const Display = () => {
       ])
 
     return(
-        <div className='Display'>
+        <div className='Display' id='main_display'>
             <RP router={router} />
         </div>
     );

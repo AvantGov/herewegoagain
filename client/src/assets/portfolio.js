@@ -99,6 +99,7 @@ export const pf = {
                     "/portphotos/design/Parody/1.26_POSTER.png",
                     "/portphotos/design/Parody/oct29poster.png",
                     "/portphotos/design/Parody/03.09poster.png",
+                    "/portphotos/design/Parody/0405flier.png",
                 ],
                 URL: {
                     location: "",

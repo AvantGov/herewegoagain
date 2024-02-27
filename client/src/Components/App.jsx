@@ -4,6 +4,7 @@ import Hydra from 'hydra-synth';
 
 //comps
 import Display from './Library/Display';
+import AudioController from './Library/AudioController';
 
 // CSS 
 import '../CSS/App.css';
@@ -19,6 +20,8 @@ function App() {
       makeGlobal: false
     }).synth
     hydra.setResolution(1920,1080)
+    hydra.fps = 30
+    console.log(hydra)
     hydra.gradient(1).out()
     // hydra.osc(3, 0.1, 100)
     //   .color(0.9, 0.7, 0.8)
@@ -41,12 +44,17 @@ function App() {
     createHydra()
     const App = document.getElementById("App")
     App.insertBefore(canvas, App.childNodes[0]);
+
+    // hides the audiocontroller on inital render 
+    const AudCont = window.document.getElementById("Comp_AudCont")
+    AudCont.style.display = "none"
   }, [])
 
 
   return (
     <div id='App' className='App'>
       <Display />
+      <AudioController />
     </div>
   )
 }

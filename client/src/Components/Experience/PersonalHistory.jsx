@@ -9,7 +9,6 @@ import { personalhistory } from "../../assets/experience";
 
 
 const PersonalHistory = () => {
-    console.log(personalhistory)
     return( 
         <div className="PersonalHistory">
             {personalhistory.map((item) => {
