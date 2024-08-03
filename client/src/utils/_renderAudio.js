@@ -5,7 +5,7 @@ export const _renderAudio = () => {
     const audioElem = window.document.getElementById("mda_audio_th")
     const source = audioCtx.createMediaElementSource(audioElem);
     source.connect(audioCtx.destination)
-    console.log("render audio ran")
+    console.log(source)
     return source
 }
 
@@ -14,15 +14,15 @@ export const _renderAnalysis = (source) => {
         console.log("Meyda could not be found! Have you included it?");
       } else {
         const analyzer = Meyda.createMeydaAnalyzer({
-          audioContext: source,
+          audioContext: source.context,
           source: source,
           bufferSize: 512,
           featureExtractors: ["rms"],
           callback: (features) => {
-            console.log(features);
+            console.log("render analysis ran?",features);
           },
         });
         analyzer.start();
       }
-      
 }
+

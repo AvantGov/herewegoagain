@@ -1,7 +1,5 @@
 // depends.
-import { useEffect } from 'react';
-import Hydra from 'hydra-synth';
-import Meyda from 'meyda';
+import { useEffect, useRef } from 'react';
 
 //comps
 import Display from './Library/Display';
@@ -14,9 +12,6 @@ import {_createHydra} from '../utils/_createHydra.js';
 import '../CSS/App.css';
 
 function App() {
-  // create canvas + apply styles 
-  
-
 
   useEffect(() => {
     // _createHydra()
@@ -26,13 +21,15 @@ function App() {
     // hides the audiocontroller on inital render 
     const AudCont = window.document.getElementById("Comp_AudCont")
     AudCont.style.display = "none"
+    
+    // const audioElem = window.document.getElementById("mda_audio_th")
+    // audioElem.onplay(console.log(audioElem))    
   }, [])
-
 
   return (
     <div id='App' className='App'>
       <Display />
-      <AudioController />
+      <AudioController/>
     </div>
   )
 }

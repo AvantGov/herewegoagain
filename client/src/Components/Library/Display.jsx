@@ -1,5 +1,5 @@
 // * depends
-import { createBrowserRouter as CBR, RouterProvider as RP } from 'react-router-dom'
+import { createBrowserRouter as CBR, RouterProvider as RP, ScrollRestoration } from 'react-router-dom'
 
 // * comps 
 import Home from '../_Pages/Home.jsx';
@@ -49,7 +49,9 @@ const Display = () => {
 
     return(
         <div className='Display' id='main_display'>
-            <RP router={router} />
+            <RP router={router}>
+                <ScrollRestoration />
+            </RP>
         </div>
     );
 };

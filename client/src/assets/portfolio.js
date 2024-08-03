@@ -98,14 +98,13 @@ export const pf = {
                 samples: [
                     "/portphotos/design/Parody/1.26_POSTER.png",
                     "/portphotos/design/Parody/oct29poster.png",
-                    "/portphotos/design/Parody/03.09poster.png",
                     "/portphotos/design/Parody/0405flier.png",
                 ],
                 URL: {
                     location: "",
                     prompt: ""
                 },
-                cover: "/portphotos/design/Parody/03.09poster.png",
+                cover: "/portphotos/design/Parody/1.26_POSTER.png",
                 year: "2023"
             },
             {
@@ -222,14 +221,9 @@ export const pf = {
                     "Images below are shot as single exposure only, with none or minimal digtal post-processing.",
                 ],
                 samples: [
-                    "/portphotos/photo/Inert/Ain1.jpg",
-                    "/portphotos/photo/Inert/Ain2.jpg",
-                    "/portphotos/photo/Inert/Ain3.jpg",
-                    "/portphotos/photo/Inert/Ain4.jpg",
                     "/portphotos/photo/Inert/inertia.jpg",
-                    "/portphotos/photo/Inert/Lin1.jpg",
+                    "/portphotos/photo/Inert/Ain2.jpg",
                     "/portphotos/photo/Inert/Rin2.jpg",
-                    "/portphotos/photo/Inert/RLin1.jpg",
                 ],
                 URL: {
                     location: "",
@@ -245,9 +239,7 @@ export const pf = {
                 bullets: [],
                 samples: [
                     "/portphotos/photo/AVwedding/AV1.jpg",
-                    "/portphotos/photo/AVwedding/AV4.jpg",
                     "/portphotos/photo/AVwedding/AV5.jpg",
-                    "/portphotos/photo/AVwedding/AV6.jpg",
                     "/portphotos/photo/AVwedding/AV7.jpg",
                 ],
                 URL: {
@@ -264,9 +256,7 @@ export const pf = {
                 bullets: [],
                 samples: [
                     "/portphotos/photo/ACwedding/AC_WED.jpg",
-                    "/portphotos/photo/ACwedding/AC1.jpg",
                     "/portphotos/photo/ACwedding/AC2.jpg",
-                    "/portphotos/photo/ACwedding/AC3.jpg",
                     "/portphotos/photo/ACwedding/AC4.jpg",
                 ],
                 URL: {

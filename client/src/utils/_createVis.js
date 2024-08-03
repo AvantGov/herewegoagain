@@ -3,7 +3,7 @@ import Hydra from 'hydra-synth';
 // import { _renderAudio } from './_renderAudio';
 // import { _renderAnalysis } from './_renderAudio';
 
-export const _createHydra = (context) => {
+export const _createVis = (context) => {
 
     var controller = {
       connected: false,
@@ -16,7 +16,7 @@ export const _createHydra = (context) => {
     // audioElem.onpause = () => {console.log("changing back now")}
 
     var canvas = document.createElement("canvas")
-    canvas.id = "canvas1"
+    canvas.id = "canvas2"
     const hydra = new Hydra({
       detectAudio: false,
       canvas: canvas,
@@ -25,8 +25,21 @@ export const _createHydra = (context) => {
     hydra.setResolution(1920,1080)
     hydra.fps = 30
     console.log("hydra:",hydra)
-    hydra.gradient(.75).color(0.253,0.098,0.158).add(hydra.osc(3,-0.25,50).color(0.253,0.098,0.158)).pixelate(10,1).out()
+    hydra.osc(3, 0.1, 100)
+    .color(0.9, (Math.random() * 10), 0.8)
+    .diff(hydra.osc(.35, 0.03, 100)
+      .color((Math.random() * 10), (Math.random() * 10), (Math.random() * 10))
+      .rotate(0.18)
+      .pixelate(12.369)
+      .kaleid())
+    .scrollX(1)
+    .colorama()
+    .luma()
+    .repeatX(7.139)
+    .repeatY(0.566)
+    .modulate(hydra.osc(1, -.174, 1))
+    .scale(2)
+    .out();
 
     return canvas
 }
-

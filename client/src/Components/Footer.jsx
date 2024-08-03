@@ -22,7 +22,7 @@ const Footer = () => {
                 <Link to="/photography" className='sitemapContainer__link'>Photography</Link>
                 <Link to="/personal" className='sitemapContainer__link'>Work History</Link>
                 <Link to="/work" className='sitemapContainer__link'>Personal Work</Link>
-                <div className='sitemapContainer__link' id="SMC_link_video" onClick={() => {ShowVideo()}}>Activate Video Synth Mode</div>
+                <div className='sitemapContainer__link' id="SMC_link_video" onClick={() => {ShowVideo()}}>Visualizer Mode</div>
             </div>
             <div className="Footer__socialContainer">
                 <a href="https://github.com/AvantGov" target="_blank" rel="noopener noreferer" className="socialContainer__svgLink">

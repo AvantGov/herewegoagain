@@ -9,7 +9,7 @@ const Showcase = (props) => {
     const pf = props.props
 
     return (
-        <div className='Showcase'>
+        <div className='Showcase' id='main_showcase'>
             <div className='Showcase__caseLable'>
                 <h1 className='caseLable__title'>{pf.title}</h1>
                 <p className='caseLable__desc'>{pf.desc}</p>
