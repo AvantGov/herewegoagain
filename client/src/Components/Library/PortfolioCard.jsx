@@ -15,7 +15,7 @@ const PortfolioCard = (props) => {
                 <h1 className="introContainer__title">{pf.title}</h1>
                 <p className="introContainer__desc">{pf.desc}</p>
             </div>
-            <div className="PC__cardContainer">
+            {/* <div className="PC__cardContainer">
                 {pf.list.map((item) => {
                     if (count < 2) {
                         count += 1
@@ -28,7 +28,7 @@ const PortfolioCard = (props) => {
                         )
                     }
                 })}
-            </div>
+            </div> */}
             <Link className='PC__PageLink' to={`/${pf.title}`}>
                 <div className='PageLink__block'>See more <span>&#10154;</span></div>
             </Link>

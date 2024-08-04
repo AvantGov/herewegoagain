@@ -13,9 +13,9 @@ export const pf = {
                     "Quickbase formulas provide real-time calculations and data reporting within user interface, while role- and rule-based interface control filters data access and actions based on least-privilege access control.",
                 ],
                 samples: [
-                    "/portphotos/photo/Inert/Ain1.jpg",
-                    "/portphotos/photo/Inert/Ain2.jpg",
-                    "/portphotos/photo/Inert/Ain3.jpg",
+                    // "/portphotos/photo/Inert/Ain1.jpg",
+                    // "/portphotos/photo/Inert/Ain2.jpg",
+                    // "/portphotos/photo/Inert/Ain3.jpg",
                 ],
                 URL: {
                     location: "",
@@ -40,7 +40,7 @@ export const pf = {
                     prompt: "view the website"
                 },
                 cover: "/portphotos/web/AudioCon.png",
-                year: "2022 - 2023"
+                year: "2022 - Present"
             },
             {
                 key: 'Dev004',
@@ -51,16 +51,16 @@ export const pf = {
                     "Asset Management features allow IT Admin to track equipment assignments across companies in the UIG portfolio. Embedded formulas auto-assign assets based on employee roles, standardizing on boarding process for new hires and providing precise equipment requirements to IT Admin.",
                 ],
                 samples: [
-                    "/portphotos/photo/Inert/Ain1.jpg",
-                    "/portphotos/photo/Inert/Ain2.jpg",
-                    "/portphotos/photo/Inert/Ain3.jpg",
+                    // "/portphotos/photo/Inert/Ain1.jpg",
+                    // "/portphotos/photo/Inert/Ain2.jpg",
+                    // "/portphotos/photo/Inert/Ain3.jpg",
                 ],
                 URL: {
                     location: "",
                     prompt: ""
                 },
                 cover: "/portphotos/web/FreeFrom.jpg",
-                year: "2020"
+                year: "2024"
             },
             {
                 key: 'Dev005',

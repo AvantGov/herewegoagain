@@ -12,6 +12,7 @@ export const toShowcaseTop = () => {
 }
 // ? same thing but the home page, for getting the workflow from the footer nav to the home page .. shouldn't need it elsewhere  
 export const toHomeTop = () => {
-    const home = window.document.getElementById("main_home")
+    // const home = window.document.getElementById("main_home")
+    const home = window.document.querySelector("#main_home")
     home.scrollTop = 0;
 }

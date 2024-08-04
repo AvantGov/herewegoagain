@@ -8,11 +8,30 @@
     width: 90%;
     height: 6%;
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .AudioController__audio {
-    width: 100%;
+    width: 80%;
     height: 100%;
     border: 7px ridge #e16a8b;
     border-radius: 25px;
+}
+
+.AudioController__esc {
+    height: 100%;
+    width: 15%;
+    border: 7px ridge #e16a8b;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.AudioController__esc:hover {
+    border-color: #ffffff;
+    background-color: #e16a8b;
+    color: #ffffff;
 }
