@@ -161,8 +161,91 @@
 
 /* ? making a couple select images contain rather than cover */
 #case_Dev001 > div > img {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: left;
 }
 
 
 /* ? */
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    
+    .Showcase__case {
+        flex-direction: column;
+        opacity: 100%;
+    }
+
+    .case__coverContainer {
+        width: 100%;
+        height: 150px;
+    }
+
+    #case_Dev001 {
+        height: 200%
+    }
+
+    #case_Dev002 {
+        height: 120%;
+    }
+
+    #case_Dev003 {
+        height: 200%;   
+    }
+
+    #case_Dev004 {
+        height: 150%;
+    }
+
+    #case_Dev005 {
+        height: 120%;
+    }
+
+    #case_Dev001 > div > img {
+        object-fit: cover;
+        object-position: left top;
+    }
+
+    #case_Dev004 > div > img {
+        object-fit: cover;
+        object-position: center bottom;
+    }
+
+    #case_Dev005 > div > img {
+        object-position: top;
+        object-fit:cover;
+    }
+
+    .case__infoContainer {
+        width: 50%;
+        margin-left: 0;
+    }    
+
+    .case__title {
+        font-size: 2.4rem;
+    }
+
+    .case__desc {
+        font-size: 1.6rem;
+    }
+
+    .bulletContainer__bullet {
+        font-size: 1.3rem;
+        line-height: 120%;
+    }
+
+    .bulletContainer__link {
+        font-size: 1.2rem;
+    }
+
+    .Showcase__sampleContainer {
+        display: none;
+    }
+
+    .Showcase__viewCtrl {
+        display: none;
+    }
+}

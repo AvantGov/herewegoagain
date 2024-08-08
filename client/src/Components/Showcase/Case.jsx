@@ -30,11 +30,11 @@ const Case = (props) => {
             <div className='case__coverContainer' style={{display: controller.view ? "none" : "block"}}>
                 <img src={item.cover} className='coverContainer__cover' />
             </div>
-            <div className='case__infoContainer' style={{display: controller.view ? "none" : "flex"}}>
+            <div className='case__infoContainer' id={`infoCont_${item.key}`} style={{display: controller.view ? "none" : "flex"}}>
                 <h2 className='case__title'>{item.title}</h2>
                 <span className='title__year'>{item.year}</span>
                 <p className='case__desc'>{item.desc}</p>
-                <div className='case__bulletContainer'>
+                <div className='case__bulletContainer' id={`bulletContainer__${item.key}`}>
                     {item.bullets.map((item) => {
                         bulletcounter += 1
                         return(

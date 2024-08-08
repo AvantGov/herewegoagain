@@ -20,11 +20,15 @@ export const handleInterfaceReturn = () => {
     const App = document.getElementById("App")
     const canvas_1 = document.getElementById("canvas1")
     const canvas_2 = document.getElementById("canvas2")
-    if(canvas_1) {
+    if(canvas_1 && canvas_2) {
         App.replaceChild(canvas_1,canvas_2)
+    } else if (!canvas_2) {
+        null
     } else {
         App.replaceChild(_createHydra(),canvas_2)
     }
+
+    // ? had to add the null case in there to cover when user goes to syn mode but does not play
 
     var display = window.document.getElementById("main_display")
     var AudCont = window.document.getElementById("Comp_AudCont")

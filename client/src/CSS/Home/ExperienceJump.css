@@ -50,5 +50,6 @@
 @media only screen and (max-width: 800px) {
     .ExperienceJump__jumpLink {
         font-size: 2rem;
+        padding: 12% 12% 12% 12%;
     }
 }

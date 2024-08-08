@@ -1,17 +1,13 @@
 //depends
 import { Link } from "react-router-dom";
 
+// utils 
+import { ShowVideo } from "../utils/ShowVideo";
+
 // CSS 
 import "../CSS/Footer.css"
 
 const Footer = () => {
-
-    const ShowVideo = () => {
-        var display = window.document.getElementById("main_display")
-        var AudCont = window.document.getElementById("Comp_AudCont")
-        display.style.display = "none"
-        AudCont.style.display = "flex"
-    }
 
     return(
         <div className="Footer">
@@ -20,8 +16,8 @@ const Footer = () => {
                 <Link to="/design" className='sitemapContainer__link'>Design</Link>
                 <Link to="/sound" className='sitemapContainer__link'>Sound</Link>
                 <Link to="/photography" className='sitemapContainer__link'>Photography</Link>
-                <Link to="/personal" className='sitemapContainer__link'>Work History</Link>
-                <Link to="/work" className='sitemapContainer__link'>Personal Work</Link>
+                <Link to="/work" className='sitemapContainer__link'>Work History</Link>
+                <Link to="/personal" className='sitemapContainer__link'>Personal Work</Link>
                 <div className='sitemapContainer__link' id="SMC_link_video" onClick={() => {ShowVideo()}}>Visualizer Mode</div>
             </div>
             <div className="Footer__socialContainer">

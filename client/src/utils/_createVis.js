@@ -24,13 +24,14 @@ export const _createVis = (context) => {
     }).synth
     hydra.setResolution(1920,1080)
     hydra.fps = 30
+    hydra.bpm = 96
     console.log("hydra:",hydra)
     hydra.osc(3, 0.1, 100)
     .color(0.9, (Math.random() * 10), 0.8)
-    .diff(hydra.osc(.35, 0.03, 100)
+    .diff(hydra.osc(.35, 0.01, 200)
       .color((Math.random() * 10), (Math.random() * 10), (Math.random() * 10))
-      .rotate(0.18)
-      .pixelate(12.369)
+      .rotate((hydra.bpm/10000))
+      .pixelate([1.543,4.6234,8.1234,12.369])
       .kaleid())
     .scrollX(1)
     .colorama()

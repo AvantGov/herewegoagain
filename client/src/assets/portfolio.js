@@ -4,6 +4,25 @@ export const pf = {
         desc: "Web-based javascript projects and business application development (operational dataflows, automation, etc.)",
         list: [
             {
+                key: 'Dev003',
+                title: 'Hydra Implementation',
+                desc: 'have you noticed the background of this page is constantly changing gradient?',
+                bullets: [
+                    "It's not a flashy CSS implementation, behind this application is an instance of the Hydra Visual Synthesizer running a calculated fluctuation of color gradient.",
+                    "A 'visual synthesizer' can best be thought of as the video equivilent of an instrumental keyboard or synthesizer. Core oscillators are defined early in the processing sequence, and are manipulated through a series of filters and differentials much like the parameters of a digital instrument.",
+                    "This implementation goes a bit further than some flashy background, though.",
+                    "Click the link below to activate the music visualizer view of this application. The sequence that you are viewing while the music plays is linked through BPM to the processing clock of the synth, allowing the visuals to lock into the rhymth of the song and provide dynamics in-time.",
+                    "The visuals are additionally entirely generative, meaning that every render of the visualizer mode is completely unique to that instance. Don't like what you're seeing? Refresh the page and navigate back to the view. It will be different."
+                ],
+                samples: [],
+                URL: {
+                    location: "",
+                    prompt: ""
+                },
+                cover: "/portphotos/web/vis_2.png",
+                year: "2024"
+            },
+            {
                 key: 'Dev001',
                 title: 'UCS Production Application',
                 desc: 'research, design, construction, and cross-platform extension of Quickbase database platform to support United Commercial Services operations',
@@ -18,7 +37,7 @@ export const pf = {
                     location: "",
                     prompt: ""
                 },
-                cover: "/portphotos/web/UCS/UCSLogo.svg",
+                cover: "/portphotos/web/UCS/UCS_dash.png",
                 year: "2023 - Present"
             },
             {
@@ -52,7 +71,7 @@ export const pf = {
                     location: "",
                     prompt: ""
                 },
-                cover: "/portphotos/web/IT/OSI-Model.png",
+                cover: "/portphotos/web/UCS/UIGIT_dash.png",
                 year: "2024"
             },
             {
@@ -72,7 +91,7 @@ export const pf = {
                     location: 'https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard',
                     prompt: "view high-res gallery"
                 },
-                cover: "/portphotos/web/visa/cardinal.png",
+                cover: "/portphotos/web/visa/2.png",
                 year: "2019"
             }
         ]
