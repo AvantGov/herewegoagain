@@ -30,7 +30,7 @@ const PortfolioCard = (props) => {
                 })}
             </div> */}
             <Link className='PC__PageLink' to={`/${pf.title}`}>
-                <div className='PageLink__block'>See more <span>&#10154;</span></div>
+                <div className='PageLink__block'>See more</div>
             </Link>
         </div>
     )

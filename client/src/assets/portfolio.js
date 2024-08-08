@@ -1,28 +1,25 @@
 export const pf = {
     Development: {
         title: "Development",
-        desc: "web-based javascript projects and business application development (operational dataflows, automation, etc.)",
+        desc: "Web-based javascript projects and business application development (operational dataflows, automation, etc.)",
         list: [
             {
                 key: 'Dev001',
                 title: 'UCS Production Application',
-                desc: 'research, design, construction, and cross-platform extension of Quickbase data platform to support United Commercial Services operations',
+                desc: 'research, design, construction, and cross-platform extension of Quickbase database platform to support United Commercial Services operations',
                 bullets: [
-                    "United Commercial Services is a water damage restoration company specializing in commercial properties. The application ecosystem required to support their production operations consists of Customer Relationship Management, Job Tracking, and Inventory Management applications. The Inventory Management application additionally stores a definitive library of all Product and Service information.",
+                    "United Commercial Services is a water damage restoration company specializing in commercial properties.",
+                    "The application ecosystem required to support their production operations consists of Customer Relationship Management, Job Tracking, and Inventory Management applications. The Inventory Management application additionally stores a definitive library of all product and service information.",
                     "The application ecosystem extends data flows outside of the Quickbase platform by utilizing automation tools to communicate invoice information to Quickbooks, or collecting daily logs from field technicians through Google Forms and App Scripts integration with the Quickbase API.",
-                    "Quickbase formulas provide real-time calculations and data reporting within user interface, while role- and rule-based interface control filters data access and actions based on least-privilege access control.",
+                    "Quickbase formulas provide real-time calculations and data reporting within the user interface, while role- and rule-based interface control filters data access and actions based on least-privilege access control.",
                 ],
-                samples: [
-                    // "/portphotos/photo/Inert/Ain1.jpg",
-                    // "/portphotos/photo/Inert/Ain2.jpg",
-                    // "/portphotos/photo/Inert/Ain3.jpg",
-                ],
+                samples: [],
                 URL: {
                     location: "",
                     prompt: ""
                 },
-                cover: "/portphotos/web/UCS/UCS_jobs.png",
-                year: "2023 - 2024"
+                cover: "/portphotos/web/UCS/UCSLogo.svg",
+                year: "2023 - Present"
             },
             {
                 key: 'Dev002',
@@ -32,7 +29,7 @@ export const pf = {
                     "Overhauled customer-facing marketing website with updated design, functionality, copy, and media.",
                     "Engineered customer payment solution in collaboration with payment gateway provider, introducing surcharge solution that reduces operational costs by $3,000 per year.",
                     "Created employee application workflow, standardizing cost of all submissions to $10/month, as opposed to per-applicant pricing on recruiting platforms.",
-                    "Web-based employee-access-only procedure and knowledge base guides for quick reference by field technicians hosted on the corporate domain."
+                    "Web-based employee-access-only procedure knowledge base guides for quick reference by field technicians."
                 ],
                 samples: [],
                 URL: {
@@ -47,19 +44,15 @@ export const pf = {
                 title: 'UIG IT Support Application',
                 desc: 'application ecosystem for UIG IT Support with ticketing and asset management functionality',
                 bullets: [
-                    "Ticketing system with user role-based access control to deliver user-facing and admin-facing views of the database. Users are shown ticket submission interface, while admin are delivered comprehensive dashboards for reviewing, documenting, and resolving reported cases.",
+                    "Ticketing system with user role-based access control to deliver user-facing and admin-facing views of the database. Users are shown ticket submission interface, while admin are delivered comprehensive dashboards for reviewing, documenting, and resolving issues and requests.",
                     "Asset Management features allow IT Admin to track equipment assignments across companies in the UIG portfolio. Embedded formulas auto-assign assets based on employee roles, standardizing on boarding process for new hires and providing precise equipment requirements to IT Admin.",
                 ],
-                samples: [
-                    // "/portphotos/photo/Inert/Ain1.jpg",
-                    // "/portphotos/photo/Inert/Ain2.jpg",
-                    // "/portphotos/photo/Inert/Ain3.jpg",
-                ],
+                samples: [],
                 URL: {
                     location: "",
                     prompt: ""
                 },
-                cover: "/portphotos/web/FreeFrom.jpg",
+                cover: "/portphotos/web/IT/OSI-Model.png",
                 year: "2024"
             },
             {
@@ -68,14 +61,12 @@ export const pf = {
                 desc: 'analytics dashboard for cross-team coordination.',
                 bullets: [
                     "Collaborated with Salesforce developer to create analytic dashboard for auditing and managing internal communication software used between the Global Product team and all customer-facing teams.",
-                    "Through user interviews, gathered reporting requirements and designed workflows to support department procedures.",
+                    "Through user interviews, gathered reporting requirements and designed workflows to support inter-departmental procedures.",
                 ],
                 samples: [
                     "/portphotos/web/visa/cardinal.png",
                     "/portphotos/web/visa/2.png",
                     "/portphotos/web/visa/3.png",
-                    "/portphotos/web/visa/4.png",
-                    "/portphotos/web/visa/6.gif",
                 ],
                 URL: {
                     location: 'https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard',
@@ -130,7 +121,7 @@ export const pf = {
                 title: 'Akron DIY Promo Posters',
                 desc: 'promotional flier designs for Akron, OH DIY music community',
                 bullets: [
-                    "Original design compositions",
+                    "Original designs and compositions",
                 ],
                 samples: [
                     "/portphotos/design/AKRON/AKRON.png",
@@ -148,19 +139,19 @@ export const pf = {
     },
     Sound: {
         title: "Sound",
-        desc: "records of sonic efforts are kept here. bands, albums, and digital-signal-processing projects.",
+        desc: "History of sonic efforts are kept here; bands, albums, and digital-signal-processing projects.",
         list: [
             {
                 key: 'Sou001',
                 title: 'drive like i do',
-                desc: 'post-hardcore band transmitting from the dairyland',
+                desc: 'home-made wisconsin guitar music',
                 bullets: [],
                 samples: [],
                 URL: {
                     location: 'https://open.spotify.com/artist/11HMbZOFDN6Qd6pjZTtrzY?si=z0dZyhOHS8S165ka7hXsvQ',
                     prompt: "listen on spotify"
                 },
-                cover:"/portphotos/music/DLID1.JPG",
+                cover:"/portphotos/music/DLID3.jpg",
                 year: "2022-current"
             },    
             {
@@ -211,14 +202,15 @@ export const pf = {
     },
     Photography: {
         title: "Photography",
-        desc: "commercial and creative photography samples",
+        desc: "Commercial and creative photography samples.",
         list: [
             {
                 key: 'Pho001',
                 title: 'Inertia',
                 desc: 'experiments on the fringes of light and motion.',
                 bullets: [
-                    "Images below are shot as single exposure only, with none or minimal digtal post-processing.",
+                    "Creative investigation of lace material in motion.",
+                    "All images in series are single exposure and not digitally manipulated."
                 ],
                 samples: [
                     "/portphotos/photo/Inert/inertia.jpg",
@@ -234,7 +226,7 @@ export const pf = {
             },
             {
                 key: 'Pho003',
-                title: 'Adam & Violetta Wedding',
+                title: 'Adam & Violetta',
                 desc: 'Eastern Orthodox summer wedding.',
                 bullets: [],
                 samples: [
@@ -251,8 +243,8 @@ export const pf = {
             },
             {
                 key: 'Pho002',
-                title: 'Wedding Series: Allison & Christine',
-                desc: 'summer wedding captured while working for David Harris Photography.',
+                title: 'Allison & Christine',
+                desc: 'Autumnal wedding.',
                 bullets: [],
                 samples: [
                     "/portphotos/photo/ACwedding/AC_WED.jpg",

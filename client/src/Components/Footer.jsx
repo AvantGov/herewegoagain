@@ -32,7 +32,7 @@ const Footer = () => {
                     <img className="svglink__img" id='behance_svg' src='Behance_logo.svg' />
                 </a>
                 <a href="https://open.spotify.com/artist/11HMbZOFDN6Qd6pjZTtrzY?si=n4QAF5rsRpm8pp5vjswF-w" target="_blank" rel="noopener noreferer" className="socialContainer__svgLink">
-                    <img className="svglink__img" src='spotify-svgrepo-com.svg' />
+                    <img className="svglink__img" id='spotify_svg' src='spotify-svgrepo-com.svg' />
                 </a>
                 <a href="https://www.linkedin.com/in/alex-c-329721109/" target="_blank" rel="noopener noreferer" className="socialContainer__svgLink">
                     <img className="svglink__img" id="linkedin_svg" src='linkedin-svgrepo-com.svg' />

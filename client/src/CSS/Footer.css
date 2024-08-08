@@ -102,3 +102,88 @@
 #SMC_link_video {
     width: 96.5%;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .Footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .Footer__sitemapContainer {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
+
+    .sitemapContainer__link {
+        margin-left: 2%;
+        text-decoration: none;
+        color: #373e45;
+        border: .5px solid #373e45;
+        transition: .2s ease-in-out;
+        width: 30%;
+        font-size: 1.4rem;
+        text-align: center;
+        height: 50px;
+        opacity: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        line-height: 110%;  
+    }
+
+    .sitemapContainer__link {
+        margin: 1% 0 1% 0;
+        width: 90%;
+        border-width: 3px;
+        font-weight: 900;
+    }
+
+    #SMC_link_video {
+        width: 90%
+    }
+
+
+    .Footer__socialContainer {
+        width: 100%;
+    }
+
+
+    #behance {
+        width: 150px;
+    }
+    
+    #behance_svg {
+        height: 30px;
+        width: 65px;
+    }
+    
+    #linkedin_svg {
+        height: 50px;
+        width: 65px;
+    }
+
+    #spotify_svg {
+        height: 50px;
+        width: 65px;
+    }
+
+    .socialContainer__svgLink {
+        border: none;
+    }
+
+    .socialContainer__svgLink:hover {
+        border: none;
+        background-color: transparent;
+    }
+}

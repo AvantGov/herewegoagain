@@ -39,3 +39,16 @@
     background-color: #373e45;
     color: #f2d471;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .ExperienceJump__jumpLink {
+        font-size: 2rem;
+    }
+}

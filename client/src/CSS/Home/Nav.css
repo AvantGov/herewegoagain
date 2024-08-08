@@ -28,3 +28,11 @@
     color: #FFFFFF;
     background-color: #e16a8b;
 }
+
+
+
+@media only screen and (max-width: 1000px) {
+    .Nav {
+        display: none;
+    }
+}

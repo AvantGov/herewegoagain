@@ -50,6 +50,12 @@ export const workhistory = [
 
 export const personalhistory = [
     {
+        id: "pers_4",
+        company: "Brutalist Instruments",
+        dates: "2024 - Present",
+        desc: "Brutalist Instruments is a engineering collective specializing in design and production of feature-rich musical tools that put form and functionality at the forefront. Engineering lead for all web platform utilities, contributing engineer for embedded systems."
+    },
+    {
         id: "pers_1",
         company: "Elektron",
         dates: "2023",
