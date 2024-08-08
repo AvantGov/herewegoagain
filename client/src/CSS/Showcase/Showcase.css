@@ -48,7 +48,26 @@
     display: none;
 }
 
+#btn_actVis {
+    height: 100%;
+    width: 30%;
+    margin: 3% 0 0 1%;
+    padding: 2% 2% 2% 2%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2d471;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000000;
+    transition: .2s ease-in-out;
+    font-weight: 900;
+}
 
+#btn_actVis:hover {
+    background-color: transparent;
+    color: #e16a8b;
+    border: 3px dashed #e16a8b;
+}
 
 @media only screen and (max-width: 800px) {
     .Showcase__caseLable {
@@ -76,6 +95,12 @@
         padding: 2% 2% 2% 2%;
         color: #000000;
         font-weight: 800;
+    }
+
+    #btn_actVis {
+        width: 70%;
+        padding: 5% 5% 5% 5%;
+        margin: 9% 0 5% 1%;
     }
 
 }

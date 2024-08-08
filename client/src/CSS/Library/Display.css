@@ -32,6 +32,6 @@
 
 @media only screen and (max-width: 700px) {
     .Display {
-        padding: 2% 2% 2% 2%;
+        padding: 0 0 0 0;
     }
 }

@@ -1,6 +1,5 @@
 // depends 
-import { useEffect } from 'react';
-
+import { useEffect, useRef } from 'react';
 // utils 
 import { ShowVideo } from '../../utils/ShowVideo';
 
@@ -14,17 +13,20 @@ import '../../CSS/Showcase/Showcase.css';
 
 const Showcase = (props) => {
     const pf = props.props
+    var btnInit = useRef(false)
 
     useEffect(() => {
         const case_hydra = window.document.querySelector("#bulletContainer__Dev003")
-        const btn = window.document.createElement("button")
-        btn.innerHTML = "Activate Visualizer"
 
-        if(case_hydra.lastChild !== btn && case_hydra) {
-            console.log(case_hydra.lastChild)
+
+        if(case_hydra && !btnInit.current) {
+            const btn = window.document.createElement("button")
+            btn.innerHTML = "Activate Visualizer"
+            btn.id = "btn_actVis"
+            btn.onclick = () => {ShowVideo()}
             case_hydra.appendChild(btn)
+            btnInit.current = true
         }
-
     },[])
 
     return (

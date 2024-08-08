@@ -8,11 +8,11 @@ export const pf = {
                 title: 'Hydra Implementation',
                 desc: 'have you noticed the background of this page is constantly changing gradient?',
                 bullets: [
-                    "It's not a flashy CSS implementation, behind this application is an instance of the Hydra Visual Synthesizer running a calculated fluctuation of color gradient.",
+                    "It's not a flashy CSS implementation, behind this display component is an instance of the Hydra Visual Synthesizer running a calculated fluctuation of color gradient.",
                     "A 'visual synthesizer' can best be thought of as the video equivilent of an instrumental keyboard or synthesizer. Core oscillators are defined early in the processing sequence, and are manipulated through a series of filters and differentials much like the parameters of a digital instrument.",
-                    "This implementation goes a bit further than some flashy background, though.",
+                    "This implementation goes a bit further than a flashy background, though.",
                     "Click the link below to activate the music visualizer view of this application. The sequence that you are viewing while the music plays is linked through BPM to the processing clock of the synth, allowing the visuals to lock into the rhymth of the song and provide dynamics in-time.",
-                    "The visuals are additionally entirely generative, meaning that every render of the visualizer mode is completely unique to that instance. Don't like what you're seeing? Refresh the page and navigate back to the view. It will be different."
+                    "The visuals are entirely generative, meaning that every render of the visualizer mode is completely unique to that instance. Don't like what you're seeing? Refresh the page and navigate back to the view. It will be different."
                 ],
                 samples: [],
                 URL: {

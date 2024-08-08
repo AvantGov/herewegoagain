@@ -7,7 +7,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     transition: .3s ease-in-out;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .Showcase__case:hover {
@@ -177,11 +177,16 @@
     .Showcase__case {
         flex-direction: column;
         opacity: 100%;
+        border: none;
     }
 
     .case__coverContainer {
         width: 100%;
         height: 150px;
+    }
+
+    .coverContainer__cover {
+        border: none;
     }
 
     #case_Dev001 {
@@ -219,13 +224,51 @@
         object-fit:cover;
     }
 
+    #case_Des001 > div > img {
+        object-position:  30% 30%;
+        
+    }
+
+    #case_Des002 > div > img {
+        object-position:  20% 10%;
+    }
+
+    #case_Des004 > div > img {
+        object-position:  20% 10%;
+        
+    }
+
+    #case_Sou003 > div > img {
+        object-position:  20% 30%;
+        object-fit: cover;
+    }
+
+    #case_Sou002 > div > img {
+        object-position:  50% 60%;
+    }
+
+    #case_Sou004 > div > img {
+        object-position:  50% 30%;
+    }
+
+    #case_Pho001 > div > img {
+        object-position:  70% 10%;
+    }
+    #case_Pho003 > div > img {
+        object-position:  20% 40%;
+    }
+    #case_Pho002 > div > img {
+        object-position:  50% 20%;
+    }
+
     .case__infoContainer {
         width: 50%;
-        margin-left: 0;
+        margin-left: 2%;
     }    
 
     .case__title {
         font-size: 2.4rem;
+        line-height: 130%;
     }
 
     .case__desc {

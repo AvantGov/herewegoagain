@@ -26,12 +26,12 @@ export const _createVis = (context) => {
     hydra.fps = 30
     hydra.bpm = 96
     console.log("hydra:",hydra)
-    hydra.osc(3, 0.1, 100)
+    hydra.osc([-3,-2,-1,0.01,0.1,1,3], (hydra.bpm/20000), 100)
     .color(0.9, (Math.random() * 10), 0.8)
     .diff(hydra.osc(.35, 0.01, 200)
       .color((Math.random() * 10), (Math.random() * 10), (Math.random() * 10))
-      .rotate((hydra.bpm/10000))
-      .pixelate([1.543,4.6234,8.1234,12.369])
+      .rotate((hydra.bpm/40000))
+      .pixelate([1.543,2.542345,4.6234,6.85904234,8.1234,10.58409,12.369,15.85902])
       .kaleid())
     .scrollX(1)
     .colorama()
