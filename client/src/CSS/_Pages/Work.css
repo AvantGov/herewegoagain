@@ -24,3 +24,22 @@
     height: 100%;
     width: 100%;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .Work__intro {
+        padding: 3% 3% 3% 3%;
+    }
+
+    .intro__title {
+        font-size: 3rem;
+    }
+
+    .intro__copy {
+        font-size: 1.6rem;
+        line-height: 120%;
+    }
+
+}

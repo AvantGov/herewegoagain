@@ -56,6 +56,12 @@ export const personalhistory = [
         desc: "Brutalist Instruments is a engineering collective specializing in design and production of feature-rich musical tools that put form and functionality at the forefront. Engineering lead for all web platform utilities, contributing engineer for embedded systems."
     },
     {
+        id: "pers_5",
+        company: "Meyda",
+        dates: "2022",
+        desc: "Open source contribution to support Node v19 adoption. Meyda is an open source library for performin audio analysis."
+    },
+    {
         id: "pers_1",
         company: "Elektron",
         dates: "2023",

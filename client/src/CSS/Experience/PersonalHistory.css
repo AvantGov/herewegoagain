@@ -46,3 +46,42 @@
     line-height: 130%;
     width: 85%;
 }
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .PersonalHistory {
+        padding-top: 4%;
+    }
+
+    .PersonalHistory__histContainer {
+        border: none;   
+        border-radius: 0px;
+        border-bottom: 5px ridge #f2d471; 
+        padding-bottom: 4%;
+    }
+
+    .histContainer__title {
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+
+    .histContainer__date {
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+
+    .histContainer__desc {
+        font-size: 1.4rem;
+        line-height: 120%;
+        width: 100%;
+    }
+
+    .PersonalHistory > :nth-child(5) {
+        border-bottom: none;
+    }
+}
