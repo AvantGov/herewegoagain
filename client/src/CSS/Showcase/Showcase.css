@@ -69,6 +69,18 @@
     border: 3px dashed #e16a8b;
 }
 
+@media only screen and (max-width: 1500px) {
+    .caseLable__mobileWarn {
+        display: block;
+        margin: 4% 0 3% 0;
+        font-size: 1.2rem;
+        background-color: #f2d471;
+        padding: 2% 2% 2% 2%;
+        color: #000000;
+        font-weight: 800;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .Showcase__caseLable {
         padding: 3% 3% 3% 3%;

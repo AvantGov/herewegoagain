@@ -188,13 +188,13 @@ export const pf = {
                     location: 'https://patchstorage.com/___-bunnies-___/',
                     prompt: "read + download"
                 },
-                cover:"/portphotos/music/bunnies.png",
+                cover:"/portphotos/music/bunnies_schem.drawio.png",
                 year: "2023"
             },   
             {
                 key: 'Sou002',
                 title: 'malwareforfree',
-                desc: 'moniker for electronic music produced by AC. Vocal accompaniments by Faith Hlavac.',
+                desc: 'moniker for electronic music produced by AC. Vocal and lyrical compositions by Faith H.',
                 bullets: [],
                 samples: [],
                 URL: {
@@ -204,19 +204,19 @@ export const pf = {
                 cover: "/portphotos/music/mff_album.jpg",
                 year: "2020-current"
             },      
-            {
-                key: 'Sou004',
-                title: 'Joyd Parker',
-                desc: 'defunct shoegaze from the midwest.',
-                bullets: [],
-                samples: [],
-                URL: {
-                    location: 'https://open.spotify.com/artist/19NBLRsTgUFMdxfLcYtdfQ?si=Hf0PI7ljRrKp6frOncnkjw',
-                    prompt: "listen on spotify"
-                },
-                cover: "/portphotos/music/JP_BAND.jpeg",
-                year: "2018-2020"
-            },
+            // {
+            //     key: 'Sou004',
+            //     title: 'Joyd Parker',
+            //     desc: 'defunct shoegaze from the midwest.',
+            //     bullets: [],
+            //     samples: [],
+            //     URL: {
+            //         location: 'https://open.spotify.com/artist/19NBLRsTgUFMdxfLcYtdfQ?si=Hf0PI7ljRrKp6frOncnkjw',
+            //         prompt: "listen on spotify"
+            //     },
+            //     cover: "/portphotos/music/JP_BAND.jpeg",
+            //     year: "2018-2020"
+            // },
         ]
     },
     Photography: {
@@ -274,7 +274,7 @@ export const pf = {
                     location: "",
                     prompt: ""
                 },
-                cover: "/portphotos/photo/ACwedding/AC2.jpg",
+                cover: "/portphotos/photo/ACwedding/AC_WED.jpg",
                 year: "2019"
             },
         ]

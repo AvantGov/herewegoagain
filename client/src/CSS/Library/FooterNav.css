@@ -31,7 +31,7 @@
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
     .FooterNav {
         height: 100%;
         flex-direction: column;

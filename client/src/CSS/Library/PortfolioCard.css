@@ -121,7 +121,23 @@
     color: #e16a8b;
 }
 
+@media only screen and (min-height: 1080px) {
+    .PortfolioCard {
+        opacity: 100%;
+    }
+}
 
+@media only screen and (max-width: 1600px) {
+    .PortfolioCard {
+        height: 200px;
+    }
+
+    .PC__PageLink {
+        height: 30%;
+        width: 25%;
+        flex-wrap: nowrap;
+    }
+}
 
 
 @media only screen and (max-width: 800px) {

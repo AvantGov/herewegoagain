@@ -34,7 +34,7 @@ const Showcase = (props) => {
             <div className='Showcase__caseLable'>
                 <h1 className='caseLable__title'>{pf.title}</h1>
                 <p className='caseLable__desc'>{pf.desc}</p>
-                {pf.title !== "Sound" ? <p className='caseLable__mobileWarn'>use desktop website to view samples</p> : null}
+                {pf.title !== "Sound" ? <p className='caseLable__mobileWarn'>use desktop website or make window full screen to view samples</p> : null}
             </div>
             {pf.list.map((item) => {
                 return(

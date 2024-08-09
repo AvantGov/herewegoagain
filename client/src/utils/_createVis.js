@@ -9,11 +9,23 @@ export const _createVis = (context) => {
       connected: false,
     }
 
-    // // TODO: figure out how to tell if it's actually connected, just assuming here to prevent error
-    // const audioElem = window.document.getElementById("mda_audio_th")
-    
-    // audioElem.onplay = () => {console.log("audio playing")}
-    // audioElem.onpause = () => {console.log("changing back now")}
+    const getResoHeight = () => {
+      const height = window.innerHeight
+      if (height > 1080) {
+        return height
+      } else {
+        return 1080
+      }
+  }
+
+  const getResoWidth = () => {
+    const width = window.innerWidth;
+    if (width > 1920) {
+      return width
+    } else {
+      return 1920
+    }
+  }
 
     var canvas = document.createElement("canvas")
     canvas.id = "canvas2"
@@ -22,7 +34,7 @@ export const _createVis = (context) => {
       canvas: canvas,
       makeGlobal: false
     }).synth
-    hydra.setResolution(1920,1080)
+    hydra.setResolution(getResoWidth(),getResoHeight())
     hydra.fps = 30
     hydra.bpm = 96
     console.log("hydra:",hydra)
@@ -31,7 +43,7 @@ export const _createVis = (context) => {
     .diff(hydra.osc(.35, 0.01, 200)
       .color((Math.random() * 10), (Math.random() * 10), (Math.random() * 10))
       .rotate((hydra.bpm/40000))
-      .pixelate([1.543,2.542345,4.6234,6.85904234,8.1234,10.58409,12.369,15.85902])
+      .pixelate([1.543,2.542345,3.542,4.6234,5.342,6.85904234])
       .kaleid())
     .scrollX(1)
     .colorama()

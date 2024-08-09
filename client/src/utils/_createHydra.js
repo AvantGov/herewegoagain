@@ -9,11 +9,23 @@ export const _createHydra = (context) => {
       connected: false,
     }
 
-    // // TODO: figure out how to tell if it's actually connected, just assuming here to prevent error
-    // const audioElem = window.document.getElementById("mda_audio_th")
-    
-    // audioElem.onplay = () => {console.log("audio playing")}
-    // audioElem.onpause = () => {console.log("changing back now")}
+    const getResoHeight = () => {
+        const height = window.innerHeight
+        if (height > 1080) {
+          return height
+        } else {
+          return 1080
+        }
+    }
+
+    const getResoWidth = () => {
+      const width = window.innerWidth;
+      if (width > 1920) {
+        return width
+      } else {
+        return 1920
+      }
+    }
 
     var canvas = document.createElement("canvas")
     canvas.id = "canvas1"
@@ -22,7 +34,7 @@ export const _createHydra = (context) => {
       canvas: canvas,
       makeGlobal: false
     }).synth
-    hydra.setResolution(1920,1080)
+    hydra.setResolution(getResoWidth(),getResoHeight())
     hydra.fps = 30
     console.log("hydra:",hydra)
     hydra.gradient(.75).color(0.253,0.098,0.158).add(hydra.osc(3,-0.25,50).color(0.253,0.098,0.158)).pixelate(10,1).out()

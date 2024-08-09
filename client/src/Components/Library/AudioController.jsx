@@ -1,5 +1,5 @@
 // depends
-import React, {useState, useEffect} from "react";
+import React from "react";
 
 // utils 
 import { handlePlay, handleInterfaceReturn } from "../../utils/handleVis";
@@ -11,6 +11,7 @@ import { _createHydra } from "../../utils/_createHydra";
 import "../../CSS/Library/AudioController.css"
 
 const AudioController = () => {
+
     return (
         <div className="AudioController" id="Comp_AudCont">
             <audio className="AudioController__audio" id="mda_audio_th" controls onPlay={handlePlay}>

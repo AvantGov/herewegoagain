@@ -53,7 +53,7 @@ export const personalhistory = [
         id: "pers_4",
         company: "Brutalist Instruments",
         dates: "2024 - Present",
-        desc: "Brutalist Instruments is a engineering collective specializing in design and production of feature-rich musical tools that put form and functionality at the forefront. Engineering lead for all web platform utilities, contributing engineer for embedded systems."
+        desc: "Brutalist Instruments is a engineering collective specializing in design and production of feature-rich musical tools that put form and functionality at the forefront. Contributing engineer."
     },
     {
         id: "pers_5",

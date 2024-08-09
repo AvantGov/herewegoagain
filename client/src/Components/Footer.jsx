@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 // utils 
 import { ShowVideo } from "../utils/ShowVideo";
+import { toHistoryTop,toShowcaseTop } from "../utils/scrollUtils";
 
 // CSS 
 import "../CSS/Footer.css"
@@ -12,12 +13,12 @@ const Footer = () => {
     return(
         <div className="Footer">
             <div className="Footer__sitemapContainer">
-                <Link to="/development" className='sitemapContainer__link'>Development</Link>
-                <Link to="/design" className='sitemapContainer__link'>Design</Link>
-                <Link to="/sound" className='sitemapContainer__link'>Sound</Link>
-                <Link to="/photography" className='sitemapContainer__link'>Photography</Link>
-                <Link to="/work" className='sitemapContainer__link'>Work History</Link>
-                <Link to="/personal" className='sitemapContainer__link'>Personal Work</Link>
+                <Link to="/development" className='sitemapContainer__link' onClick={toShowcaseTop}>Development</Link>
+                <Link to="/design" className='sitemapContainer__link' onClick={toShowcaseTop}>Design</Link>
+                <Link to="/sound" className='sitemapContainer__link' onClick={toShowcaseTop}>Sound</Link>
+                <Link to="/photography" className='sitemapContainer__link' onClick={toShowcaseTop}>Photography</Link>
+                <Link to="/work" className='sitemapContainer__link' onClick={toHistoryTop}>Work History</Link>
+                <Link to="/personal" className='sitemapContainer__link' onClick={toHistoryTop}>Personal Work</Link>
                 <div className='sitemapContainer__link' id="SMC_link_video" onClick={() => {ShowVideo()}}>Visualizer Mode</div>
             </div>
             <div className="Footer__socialContainer">
