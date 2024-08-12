@@ -1,5 +1,5 @@
 // CSS 
-import '../CSS/Heading.css';
+import '../../CSS/Home/Heading.css';
 
 const Heading = () => {
 
